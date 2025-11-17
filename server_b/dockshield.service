@@ -1,0 +1,14 @@
+[Unit]
+Description=Daemon que roda a api que recebe as imagens
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /opt/dockshield/bin/dockshield_start.sh
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/dockshield.log
+StandardError=append:/var/log/dockshield.log
+
+[Install]
+WantedBy=multi-user.target
+

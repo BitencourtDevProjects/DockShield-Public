@@ -1,0 +1,12 @@
+[Unit]
+Description=Daemon para envio de imagens Docker para análise
+After=network.target docker.service
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/dock_transporter/dock_transporter.py
+Restart=always
+User=root
+PIDFile=/var/run/dock_transporter.pid
+
+[Install]
+WantedBy=multi-user.target

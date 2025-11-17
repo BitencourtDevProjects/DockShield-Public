@@ -1,0 +1,9 @@
+uvicorn
+python-multipart
+docker
+requests
+fastapi
+docker
+pymongo
+openai
+nvdlib
