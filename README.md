@@ -108,7 +108,7 @@ Para que o **DockShield** funcione corretamente, é necessário atender aos segu
 O **Server A** é o servidor onde as imagens Docker que serão analisadas estão rodando.
 ### Passo 1: Clonar o repositório
 ```bash
-git clone [repositório]
+git clone https://github.com/BitencourtDevProjects/DockShield-Public.git
 ```
 ### Passo 2: Dar permissões de execução para o instalador
 ```bash
@@ -122,7 +122,7 @@ sudo ./DockShield/server_a/install.sh
 O "server B" é o servidor que irá orquestrar a análise das imagens pelas LLMs
 ### Passo 1: Clonar o repositório
 ```bash
-git clone [repositório]
+git clone https://github.com/BitencourtDevProjects/DockShield-Public.git
 ```
 ### Passo 2: Dar permissões de execução para o instalador
 ```bash
@@ -136,7 +136,7 @@ sudo ./DockShield/server_b/install.sh
 O "Web Server" é o servidor que será usado para visualizar os dados obtidos via web.
 ### Passo 1: Clonar o repositório
 ```bash
-git clone [repositório]
+git clone https://github.com/BitencourtDevProjects/DockShield-Public.git
 ```
 ### Passo 2: Dar permissões de execução para o instalador
 ```bash
