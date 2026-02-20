@@ -11,6 +11,7 @@
 # Sumário
 
 - [📌 Visão Geral](#-visão-geral)
+- [🖼️ Imagens](#%EF%B8%8F-imagens)
 - [🏗️ Arquitetura do Sistema](#%EF%B8%8F-arquitetura-do-sistema)
   - [Diagrama de Fluxo e Componentes](#diagrama-de-fluxo-e-componentes)
   - [Fluxo de Execução e Processamento de Dados](#fluxo-de-execu%C3%A7%C3%A3o-e-processamento-de-dados)
@@ -47,6 +48,20 @@ O projeto é organizado em **três módulos principais**, cada um em um diretór
 
 💡 **Resumo:** O DockShield conecta os três módulos para criar um fluxo de análise altamente eficiente:  
 **Imagens Docker → Análise automatizada rápida → Resultados acessíveis via web.**
+
+---
+# 🖼️ Imagens
+Lista de imagens Docker analisadas. Ao final é indicado qual LLM foi usado para análise.
+![Lista de Imagens Docker](assets/Dockshield_1.jpeg)
+
+Análise de uma imagem Docker realizada inteiramente por IA.
+![Análise de Imagem Feita por IA](assets/Dockshield_2.jpeg)
+
+Lista de Vulnerabilidades encontradas na imagem Docker analisada.
+![Lista de Vulnerabilidades](assets/Dockshield_3.jpeg)
+
+Uma análise de vulnerabilidade totalmente automatizada por IA.
+![Análise de Vulnerabilidade Feita por IA](assets/Dockshield_4-2.jpeg)
 
 ---
 
